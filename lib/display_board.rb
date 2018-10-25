@@ -3,16 +3,16 @@
   board=[" "," "," "," "," "," "," "," "," ",]
 
 def display_board(board)
-  # puts " b[0]| b[1]|b[2] "
+  # puts " b[0] | b[1] | b[2] "
   # puts "-----------"
-  # puts " b[3]|b[4]|b[5]  "
+  # puts " b[3] | b[4] | b[5] "
   # puts "-----------"
-  # puts " b[6]|b[7]|b[8]  "
-  puts "   |   |   "
+  # puts " b[6] | b[7] | b[8] "
+  puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
-  puts "   |   |   "
+  puts " #{board[3]} | #{board[4]} | #{board[5]} "
   puts "-----------"
-  puts "   |   |   "
+  puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
 display_board(board)
